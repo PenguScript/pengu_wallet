@@ -2,7 +2,7 @@ name: Tagged Release
 on:
   push:
     tags:
-      - "v*"
+      - "v*.*.*"
 jobs:
   create-tagged-release:
     name: Create Release
