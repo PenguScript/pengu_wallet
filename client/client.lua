@@ -8,7 +8,7 @@ local function toggleNuiFrame(shouldShow)
   print(PlayerData.money.cash)
 end
 
-RegisterCommand('show-nui', function()
+RegisterCommand('show-wallet', function()
   toggleNuiFrame(true)
   debugPrint('Show NUI frame')
 end)

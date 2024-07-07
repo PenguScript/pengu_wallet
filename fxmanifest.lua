@@ -1,9 +1,9 @@
 fx_version "cerulean"
 
-description "Basic React (TypeScript) & Lua Game Scripts Boilerplate"
-author "Project Error"
-version '1.0.0'
-repository 'https://github.com/project-error/fivem-react-boilerplate-lua'
+description "pengu_wallet"
+author "PenguScripts"
+version 'v1.0.0'
+repository 'https://github.com/PenguScript/pengu_wallet'
 
 lua54 'yes'
 
