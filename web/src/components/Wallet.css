@@ -1,0 +1,34 @@
+/* src/components/Wallet.css */
+.wallet {
+    background: #80551e;
+    outline: 3px #3f2a0f solid;
+    outline-offset: -7.5px;
+    box-shadow: 10px -10px 0px 0px #18642a;
+    padding: 16px;
+    min-width: 200px;
+    max-width: 1000px;
+    border-radius: 8px;
+    margin: auto;
+  }
+
+  .wallet-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .wallet-section:last-child {
+    border-bottom: none;
+  }
+  
+  .wallet-label {
+    font-weight: bold;
+    color: #ebf5f5;
+  }
+  
+  .wallet-value {
+    font-size: 1em;
+    color: #28a745; /* Green color for positive values */
+  }
+  
