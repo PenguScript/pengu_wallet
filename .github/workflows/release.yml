@@ -25,7 +25,7 @@ jobs:
       - name: Create release
         uses: marvinpinto/action-automatic-releases@latest
         with:
-          title: React/Lua Boilerplate - ${{ steps.get_tag.outputs.VERSION_TAG }}
+          title: pengu_wallet - ${{ steps.get_tag.outputs.VERSION_TAG }}
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           prerelease: false
         id: auto_release
