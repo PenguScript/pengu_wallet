@@ -6,7 +6,7 @@
 * [qb-core](https://github.com/qbcore-framework/qb-core)
   
 # DISCORD
-* [Discord for Support](https://discord.gg/AS7U5GK4TE)
+[Discord for Support](https://discord.gg/AS7U5GK4TE)
 
 # Preview
 * ![pengu_wallet preview](image.png)
