@@ -13,6 +13,8 @@ RegisterCommand('show-wallet', function()
   debugPrint('Show NUI frame')
 end)
 
+RegisterKeyMapping("show-wallet", "Show Wallet", "keyboard", "o")
+
 RegisterNUICallback('hideFrame', function(_, cb)
   toggleNuiFrame(false)
   debugPrint('Hide NUI frame')
