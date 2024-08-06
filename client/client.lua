@@ -1,9 +1,9 @@
 local QBCore = exports['qb-core']:GetCoreObject()
 
 local function toggleNuiFrame(shouldShow)
-  local PlayerData = QBCore.Functions.GetPlayerData()
   SetNuiFocus(shouldShow, shouldShow)
   SendReactMessage('setVisible', shouldShow)
+  local PlayerData = QBCore.Functions.GetPlayerData()
   SendReactMessage('updateWallet', {cash = PlayerData.money.cash, bank = PlayerData.money.bank})
   print(PlayerData.money.cash)
 end
